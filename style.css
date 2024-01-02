@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Font";
+    src: url("/static/Figtree-Italic-VariableFont_wght.ttf") format("truetype"),
+      url("/static/Figtree-VariableFont_wght.ttf") format("truetype");
+  }
+body{
+    background-color: #F5D04E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Font", fallback, sans-serif;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0);
+}
+
+.card-image{
+    border-radius: 10px;
+}
+
+.tag{
+    background-color: #F5D04E;
+    color: black;
+    padding : 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: fit-content;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+.user-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title:hover {
+    color:#F5D04E;
+}
+.description{
+    font-size: 1rem;
+    color:gray;
+    line-height: 1.5rem;
+    margin-top: 0;
+}
+
+.user-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h3{
+    font-size: 1rem;
+}
